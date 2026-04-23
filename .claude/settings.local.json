@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/ramkiranbalaji/Desktop/Career-2026 status)",
+      "Read(//Users/ramkiranbalaji/.claude/**)"
+    ]
+  },
+  "mcpServers": {
+    "playwright": {
+      "command": "node",
+      "args": [
+        "/Users/ramkiranbalaji/Desktop/Career-2026/node_modules/@playwright/mcp/cli.js"
+      ]
+    },
+    "github": {
+      "command": "node",
+      "args": [
+        "/Users/ramkiranbalaji/Desktop/Career-2026/node_modules/@modelcontextprotocol/server-github/dist/index.js"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_GITHUB_TOKEN_HERE"
+      }
+    }
+  }
+}

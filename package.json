@@ -1,0 +1,17 @@
+{
+  "name": "career-2026",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@modelcontextprotocol/server-github": "^2025.4.8",
+    "@playwright/mcp": "^0.0.70",
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}
